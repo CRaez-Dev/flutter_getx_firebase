@@ -45,3 +45,5 @@ app.*.map.json
 #Firebase config exclude
 firebase.json
 .env
+/ios/Runner/GoogleService-Info.plist
+/android/app/google-services.json

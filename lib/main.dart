@@ -1,9 +1,10 @@
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_getx_firebase/config/firebase/firebase_options.dart';
 import 'package:flutter_getx_firebase/config/routes/app_routes.dart';
-import 'package:get/route_manager.dart';
+import 'package:flutter_getx_firebase/firebase_options.dart';
+import 'package:get/get.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
